@@ -1,0 +1,187 @@
+#login_main{
+    width:100%;
+    height:100%;
+    background-image: url(../images/loginBackGround.png);
+    background-size: 100% 100%;
+}
+#login_top{
+    margin:0px;
+    padding-left:3%;
+    width:100%;
+    height:7%;
+    padding-top: 13px;
+}
+#login_top span{
+    vertical-align: middle;
+    color:black;
+    font-size: 36px;
+}
+#login_center{
+    margin:0px;
+    width:100%;
+    height:86%;
+    padding-left:21%;
+    overflow:hidden;
+}
+#login_bottom{
+    margin:0px;
+    width:100%;
+    height:7%;
+    padding-left:75%;
+}
+#login_info_left{
+    float: left;
+    /*vertical-align: middle;*/
+    width: 600px;
+    height:440px;;
+    margin-top: 13%;
+    margin-left: 20%;
+    background-image:url(../images/loginBox.png);
+    background-repeat: no-repeat;
+}
+#login_input{
+    width:60%;
+    height:52%;
+    float:right;
+    margin-top: -15px;
+}
+#login_input table{
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+}
+#lblUserSave{
+    font-size: 12px;
+    padding-left:3px;
+    padding-right:3px;
+    width:auto;
+    color:#666666;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+#player_update{
+    color: rgb(29, 110, 199);
+    cursor: pointer;
+    margin-left: 30px;
+}
+#login_input_user{
+    padding: 5px;
+    width: 177px;
+    height: 31px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgb(238, 240, 243);
+    margin-top: 68px;
+    margin-left: 62px;
+    /*margin-top: 13.45%;*/
+    /*margin-left: -7%;*/
+    outline:none;
+}
+#login_input_pwd{
+    padding: 5px;
+    width: 171px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgb(238, 240, 243);
+    margin-top: 18px;
+    margin-left: 67px;
+    /*margin-top: 18px;*/
+    /*margin-left: -6%;*/
+    outline:none;
+}
+#login_input_checkbox{
+    margin-left: 45px;
+    width: 20px;
+    outline:none;
+}
+#user_login{
+    background-color: #14773A;
+    padding-bottom: 20px;
+    font-size:20px;
+    margin-left: 80px;
+}
+.btnLogin{
+    margin-left: 40px;
+    width: 180px;
+    height: 30px;
+    border: none;
+    background-color: #14773A;
+    color: white;
+    font-size: 16px;
+}
+.loginButton{
+    margin-left:50px;
+    background-color: #14773A;
+    width:180px;
+    height:30px;
+    line-height: 30px;
+    border-radius:3px;
+}
+.loadButton{
+    margin-left:50px;
+    background-color: #14773A;
+    width:180px;
+    height:30px;
+    margin-top: 10px;
+    line-height: 30px;
+    border-radius:3px;
+}
+.loginButton img{
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.login_error{
+    margin-left: 30px;
+    font-size: 12px;
+    margin-top:5px;
+    color:white;
+}
+.login_error img{
+    height: 12px;
+    width: 12px;
+    margin-bottom: 3px;
+}
+#download_href{
+    margin: 20px auto auto 90%;
+    font-size: 18px;
+}
+#login_languague{
+    color:white;
+    margin-top:5%;
+    margin-left:80%;
+}
+.login_download{
+    width: 240px;
+    height: 26px;
+    margin-top: 2.5px;
+    border: 1px #2E9947 solid;
+}
+#login_right{
+    width:100%;
+    height:90%;
+    background: #cfffc9;
+}
+#login_info_right{
+    width: 100%;
+    height:100%;
+}
+#login_info_right1{
+    float: left;
+    vertical-align: middle;
+    width: 50%;
+    height:90%;
+    margin-top: 35%;
+    margin-left: 90%;
+}
+.loadCenter{
+    margin-left:10%;
+}
+.loadCenter1{
+    text-align: center;
+}
+.table_left{
+    text-align: left;
+}

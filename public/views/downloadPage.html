@@ -1,0 +1,24 @@
+<div id="login_info_right" ng-controller="downloadPageController">
+    <div id="header" class="row-fluid">
+        <div class="col-md-7" id="header_left" ><span>升级包下载</span></div>
+    </div>
+    <div id="login_right">
+        <div class="loadCenter">
+            <a class="Text_Font_title">产品类型：</a>
+            <select class="login_download" ng-model="selectProductType" ng-change="getProductPackagesInfo()">
+                <option ng-repeat="x in ProductionTypes">{{x}}</option>
+            </select>
+        </div>
+        <div class="loadCenter" style="margin-top:10px;width:90%;margin-left:10px;overflow: auto;">
+            <div class="table-responsive">
+                <table id="version_table">
+                </table>
+            </div>
+            <div class="table-responsive" id="history_div">
+                <table id="version_table_history" style="margin:0px;margin-left: 170px">
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</div>

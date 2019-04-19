@@ -1,0 +1,36 @@
+<div id="login_main" ng-controller="loginController">
+    <div id="login_top">
+        <span>{{"titleLogin"|translate}}</span>
+    </div>
+    <div id="login_center">
+        <!--<div id="login_languague"><span ng-click="selectChange('zh')">中文</span><span> / </span><span ng-click="selectChange('en')">English</span></div>-->
+        <div id="login_info_left">
+            <div id="login_input">
+                <div><input id="login_input_user" type="text" ng-model="userName" autofocus/></div>
+                <div style="height: 5px;"></div>
+                <div><input id="login_input_pwd"  type="password" ng-model="password"></div>
+                <div style="height: 5px;"></div>
+                <div>
+                    <input id="login_input_checkbox" type="checkbox" ng-model="checkOrNO"  ng-click="saveUser()">
+                    <span id="lblUserSave">{{"saveUserName"| translate}}</span>
+                </div>
+                <div style="margin-left: 45px;">
+                    <span>{{"languagueSelect"|translate}}</span>
+                    <select ng-model="language" ng-change="selectChange(language)">
+                        <option value="zh">中文</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+                <div class="loginButton"  ng-click="login()"><img src="images/loginButton.png"><a class="btnLogin" >{{"login"|translate}}</a></div>
+                <!--<div class="loadButton" ng-click="loadFile()"><a class="btnLogin" >下载文件</a></div>-->
+                <div class="login_error" id="errormesg"><span><img src="images/error.png" id="error"></span><span id="tips" >{{errortips}}</span></div>
+            </div>
+            <div id="login_info_right1">
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="login_bottom"></div>
+</div>
